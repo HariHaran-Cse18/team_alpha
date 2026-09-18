@@ -1,0 +1,29 @@
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npmrc
+
+# Python & Backend
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.sqlite3
+
+# Local runner scripts
+powershell.cmd
+backend/powershell.cmd
+frontend/powershell.cmd
+install_frontend.py
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
